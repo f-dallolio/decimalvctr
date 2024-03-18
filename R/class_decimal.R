@@ -12,8 +12,8 @@ new_decimal <- function(x = numeric(),
                         precision = 0L,
                         scale = 2L,
                         strict = FALSE){
-  assert_that(is.numeric(x), msg = "`x` must be numeric")
-  assert_that(is.logical(strict), msg = "`strict` must be logical")
+  assertthat::assert_that(is.numeric(x), msg = "`x` must be numeric")
+  assertthat::assert_that(is.logical(strict), msg = "`strict` must be logical")
   dgts_dec <- vec_cast(scale, integer())
   out <- round(x, digits = dgts_dec)
   dgts_int <- vec_cast(max_int_digits(out), integer())
