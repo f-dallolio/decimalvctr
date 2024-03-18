@@ -14,3 +14,5 @@ Imports:
     assertthat,
     methods,
     vctrs
+URL: https://github.com/f-dallolio/decimalvctr
+BugReports: https://github.com/f-dallolio/decimalvctr/issues
