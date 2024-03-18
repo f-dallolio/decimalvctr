@@ -5,6 +5,7 @@
 #' @name pizza-vctrs
 NULL
 
+
 # constructor
 #' @export
 new_decimal <- function(x = numeric(),
